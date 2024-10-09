@@ -15,6 +15,66 @@ def is_uppercase (str):
         else:
             isUpBoolean = False
     
-    print("\"", str, "\" is uppercase:", isUpBoolean)
-    
-is_uppercase("YOUR TEXT HERE")
+    print(f"\"{str}\" is uppercase:", isUpBoolean)
+
+is_uppercase(input("Your text: "))
+
+
+# Питання
+
+# 1. Список - це набір елементів. Пустий список має довжину 0
+
+# 2. append(<el>), 
+# insert(<i>, <el>)
+# List1.extend(List2)
+
+# 3. pop( <el pos> ) або remove( <element> )
+
+# 4. print(L[i])
+
+# 5. L[3:10] - від 3 до 10, можна з кроком L[4:10:2]
+
+# 6. Кортеж - через (), як список, але не змінюється
+
+# 7. Dict = {
+#   <key>: <val>,
+#   <key>: <val>
+#   ...
+# }
+# 
+# print(Dict["<key>"])
+
+# 8. Dict["<new key>"] = "new val"
+# Dict.pop(<i>)
+
+# 9. print(Dict["<key>"])
+
+# 10. mySet = {"<el>", "<el>", ...}
+# Невпорядкований, незмінні елементи, немає індексів, не можуть повторюватися
+
+# 11. mySet.add(<el>)
+# mySet.remove(<el>)
+
+# 12. <el> in mySet
+# Якщо є, результат - True
+
+# 13. 
+# def myFunction(x):
+#   <func code>
+
+# 14. def myFunction(<arg>):
+#       <func code>
+
+# 15. return <expression>
+
+# 16.
+# a = lambda x : x + 10
+# print(a(10))
+
+# 17. len(myList)
+# sum(myList)
+
+# 18. List comprehensions
+# myList = list(range(0,15))
+
+# print([el*2 for el in myList if not el % 2])
